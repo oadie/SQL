@@ -1,0 +1,7 @@
+ALTER TABLE user RENAME TO users;
+
+ALTER TABLE users CHANGE dir direction VARCHAR(280);
+
+ALTER TABLE users ADD age INT NOT NULL;
+
+ALTER TABLE users DROP age; 
